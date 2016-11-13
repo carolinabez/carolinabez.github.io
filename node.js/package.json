@@ -1,0 +1,14 @@
+{
+  "name": "package",
+  "version": "1.0.0",
+  "description": "my package.json file",
+  "main": "discriminant.js",
+  "scripts": {
+    "test": "node solve"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prompt": "^0.2.14"
+  }
+}
