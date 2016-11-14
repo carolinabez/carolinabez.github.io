@@ -29,11 +29,11 @@
 .jumbotron {
   margin: 0px auto;
   padding: 70px 30px;
-  background: #00000f;
+  background: rgb(2, 16, 27);
   color: floralwhite;
 }
 .carousel {
-  background: rgb(45, 45, 45);
+  background:  rgb(2, 19, 32);
 }
 .carousel .item {
   height: 300px;
@@ -45,49 +45,65 @@
   top: 0;
 }
 .navbar-inverse {
-  background:rgb(18, 96, 159);
+  background:#0f4229;
   color: #fffff;
 }
 .navbar-inverse  .navbar-nav {
   color: #000000;
+  align-items: flex-end;
+
 
 }
 
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+.navitem{
+  text-align: center;
+  min-width:15%;
+}
 
 
 .navbar-inverse .navbar-nav > .active > a {
-  background: ;
+  background:  rgb(2, 16, 27);
   color: #ffffff;
 }
 .navbar-inverse .navbar-nav > .active > a:hover {
-  background: rgb(0, 171, 255);
+  background: #175737;
   color: #ffffff;
 }
 .navbar-inverse .navbar-nav > .active > a:focus {
-  background: rgb(0, 171, 255);
+  background: #175737;
   color: #ffffff;
 }
 .navbar-inverse .navbar-nav > .open > a {
-  background: rgb(0, 171, 255);
+  background: #175737;
   color: #ffffff;
 }
 .navbar-inverse .navbar-nav > .open > a:hover {
-  background: rgb(0, 171, 255);
+  background: ;
   color: #ffffff;
 }
 .navbar-inverse .navbar-nav > .open > a:focus {
-  background: rgb(0, 171, 255);
+  background: #175737;
   color: #ffffff;
 }
 .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
-  background-color:rgb(0, 171, 255);
+  background-color:#175737;
   color: #000000;
 }
 .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover {
   color: #000000;
 }
 .navbar-inverse .navbar-nav .open .dropdown-menu {
-  background-color: rgb(0, 171, 255);
+  background-color: #175737;
   color: #000000;
 }
 address {
@@ -97,11 +113,17 @@ address {
 }
 
 
+.body_index {
+  align: center;
+  padding: 50px 0px 0px 0px;
+  z-index: 0;
+  background-color:  #3F5D7D;
+}
 body {
   align: center;
   padding: 50px 0px 0px 0px;
   z-index: 0;
-  background-color:  #279B61;
+  background-color: rgb(217, 217, 217);
 }
 .tab-content {
   border-bottom: 1px solid #dddddd;
