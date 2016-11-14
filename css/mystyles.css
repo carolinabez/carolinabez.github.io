@@ -27,7 +27,7 @@
 .jumbotron {
   margin: 0px auto;
   padding: 70px 30px;
-  background: rgb(2, 16, 27);
+  background: rgb(2, 20, 34);
   color: floralwhite;
 }
 .carousel {
@@ -70,7 +70,7 @@
 
 
 .navbar-inverse .navbar-nav > .active > a {
-  background:  rgb(2, 16, 27);
+  background:  rgb(2, 20, 34);
   color: #ffffff;
 }
 .navbar-inverse .navbar-nav > .active > a:hover {
